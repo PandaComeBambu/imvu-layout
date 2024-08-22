@@ -1,0 +1,61 @@
+#video_panel_header {
+  display: none;
+}
+#video_panel {
+  top: 50px !important;
+  left: -10px !important;
+  position: absolute !important;
+  height: 0px;
+  margin: -8px;
+  left: 4px !important;
+  padding: 0px;
+  width: 100% !important;
+}
+.paneltitle,
+.panelmenu,
+.imvucodes_net {
+  display: none !important;
+}
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  border: 1px solid #1F1F51;
+  border-radius: 10px;
+  background: #1F1F51;
+}
+::-webkit-scrollbar-thumb {
+  background: #1F1F51;
+  border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #1F1F51;
+}
+.Footer {
+  line-height: 1px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-transform: uppercase;
+  text-align: center;
+  color: #fff;
+  background-color: #DB4419;
+  font-size: 8px;
+  letter-spacing: 1px;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  right: 0;
+  z-index: 30;
+  padding: 10px;
+  margin-top: 26px;
+}
+body {
+  background-color: #000;
+}
+#rightColumn {
+  width: 300px;
+  display: none;
+}
+#avatar_name {
+  visibility: hidden;
+}
